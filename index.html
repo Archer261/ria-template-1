@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Eczar&family=Gentium+Plus&family=Libre+Baskerville&family=Libre+Franklin&family=Poppins:wght@500&family=Proza+Libre&family=Rubik&family=Taviraj&family=Trirong&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ria's Touch Massage</title>
+    <link rel="icon" type="image/x-icon" href="src/images/favicon-.png" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <!-- ------------ Body ------------ -->
+  <body>
+    <div class="main">
+      <nav class="navi">
+        <a class="img-link-container" href="#"
+          ><img id="logo" src="src/images/riaLogo.png" alt="ria"
+        /></a>
+        <ul class="navi-selection">
+          <li><a href="#promotions">Promotions</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Ria's Touch</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <div class="dropdown">
+          <a class="dropbtn"><img src="./src/images/menu.png" /></a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#promotions">Promotions</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Ria's Touch</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#gallery">Gallery</a>
+          </div>
+        </div>
+
+        <a id="book-container" href="https://rupaservices.fullslate.com/"
+          ><img src="/src/images/bookImg.png"
+        /></a>
+        <div class="social-media">
+          <a><img /></a>
+          <a><img /></a>
+          <a><img /></a>
+        </div>
+      </nav>
+
+      <!-- ------------ Banner ------------ -->
+      <div class="banner">
+        <h2>We Are Here to Relax You!</h2>
+        <p>
+          We are committed to your long term health and well-being. Explore our
+          studio on the following pages, and discover all the benefits you'll
+          enjoy as one of our treasured clients.
+          <br />
+          We will reduce your aches and pains, but don't just think of our
+          services as a therapeutic remedy. Our massage therapy and classes have
+          preventative advantages, too. Enhance your health and improve your
+          performance with our holistic treatments. Please notify us 2 Weeks
+          notice. prior tor appts date for couples massage
+          <br />
+          We look forward to getting to know you personally!
+        </p>
+      </div>
+      <div id="Promotions"></div>
+
+      <!-- ------------ Services ------------ -->
+      <div id="services">
+        <div class="text-box">
+          Our competent and friendly team uses the latest techniques to provide
+          you with a holistic, individualized treatment. <br />
+          We offer customized treatments for chronic pain and massage therapy.
+          Whether you'd like to focus on preventative care for your back or
+          <br />
+          abdominal exercises, our excellent services will help you meet your
+          goals with confidence — and enjoy the process.
+        </div>
+        <div>
+          <img src="./src/images/contentImg.jpg" />
+        </div>
+      </div>
+      <!-- Slideshow container -->      
+      <div id ="gallery" class="slideshow-container">
+        <h3>Gallery</h3>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://via.placeholder.com/150" style="width: 100%" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://via.placeholder.com/150" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://via.placeholder.com/150" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+   
+    <footer>
+      <!-- ------------ Contact Form ------------ -->
+      <div class="contact-form">
+        <!-- ----------- -->
+
+        <form>
+          <div class="form-header">
+            <h3>Get In Touch</h3>
+          </div>
+          <div class="row-one">
+            <input id="name" type="text" name="name" placeholder="Name" />
+            <input id="email" type="email" name="email" placeholder="Email" />
+          </div>
+          <div class="row-two">
+            <input
+              id="subject"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+            />
+          </div>
+          <div class="row-three">
+            <input
+              id="message"
+              type="text"
+              name="message"
+              placeholder="message"
+            />
+          </div>
+          <div class="row-four">
+            <input id="submit" type="submit" name="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+
+      <!-- ------------ Hours ------------ -->
+      <div class="hours">
+        <div class="div-header">
+          <h3>Hours</h3>
+          <img src="./src/images/locationImg.png" />
+        </div>
+        <!-- ------------------ -->
+        <ul>
+          <li>Mon 9:30 am - 6:00 pm</li>
+          <li>Tues 9:30 am - 6:00 pm</li>
+          <li>Wed 9:30 am - 6:00 pm</li>
+          <li>Thurs 9:00 am - 6:00 pm</li>
+          <li>Fri 9:30 am - 6:00 pm</li>
+          <li>Sat 9:30 am - 3:00 pm</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="src/script.js" async defer></script>
+  </body>
+</html>
